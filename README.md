@@ -1,7 +1,12 @@
 
 # ESP based IoT-Projects
                                 
-  The project uses ESP module Arduino Uno for controlling and monitoring actuators using a web interface. The program has two portions: one for the Arduino and the other for ESP module.           
+  The project uses ESP module Arduino Uno for controlling and monitoring actuators using a web interface. Data from the temperature sensors is countinously displayed on the webpage using websockets and based on that the relay is manually or automatically activated. The program has two main portions: 
+  
+  ArduinoToEsp - is part of the program for reading sensor data and sendig it to the wifi module.
+  
+  WebSocketTempControl - is part of the code deployed on the esp module
+  
                 
                 Instruction on How to use the ESP8266-1 Wi-Fi module
  The pin lay out diagram for the module is as shown in the figure
